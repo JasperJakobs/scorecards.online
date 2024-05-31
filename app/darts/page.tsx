@@ -4,7 +4,7 @@ export default function Home() {
     return (
       <main className="flex min-h-screen flex-col items-center justify-between">
         <div className="w-full h-screen">
-          <div className="grid grid-cols-2 mb-6">
+          <div className="grid grid-cols-2 pb-6">
             <div className="w-full">
               <div className="w-full bg-slate-200">
                 <h1 className="text-center text-xl font-bold py-4">PLAYER 1</h1>
@@ -22,7 +22,7 @@ export default function Home() {
               <p className="text-center text-sm">Avg 0 | Best 0</p>
             </div>
           </div>
-          <div className="grid grid-cols-2 h-64">
+          <div className="grid grid-cols-2 h-48">
             <div className="w-full">
               <h1 className="text-center font-bold my-2">SCORE</h1>
             </div>
@@ -30,11 +30,11 @@ export default function Home() {
               <h1 className="text-center font-bold my-2">SCORE</h1>
             </div>
           </div>
-          <div>
-            <div className="text-center p-2">
-              <p className="text-sm">Leg 1</p>
-              <p className="font-bold text-4xl">0</p>
+          <div className="text-center p-2">
+            <p className="text-sm">Leg 1</p>
+            <p className="font-bold text-4xl">0</p>
             </div>
+          <div className="absolute bottom-8 w-full">
             <div className="w-full h-96 grid grid-rows-4 grid-cols-3 gap-2 p-2">
               <Button color="primary" className="h-full text-4xl">
                 1
