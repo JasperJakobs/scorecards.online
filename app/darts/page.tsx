@@ -67,7 +67,7 @@ export default function Home() {
             </Button>
 
             <Button color="secondary" className="h-full text-4xl">
-              Bust
+              Undo
             </Button>
             <Button color="primary" className="h-full text-4xl">
               0

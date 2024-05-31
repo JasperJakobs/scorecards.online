@@ -1,0 +1,12 @@
+{
+    "name": "Scorecards Online",
+    "short_name": "Scorecards",
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/",
+    "icons": null,
+    "splash_pages": null
+}
