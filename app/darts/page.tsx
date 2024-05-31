@@ -6,15 +6,15 @@ export default function Home() {
         <div className="w-full h-screen">
           <div className="grid grid-cols-2 pb-6">
             <div className="w-full">
-              <div className="w-full bg-slate-200">
-                <h1 className="text-center text-xl font-bold py-4">PLAYER 1</h1>
+              <div className="w-full">
+                <h1 className="text-center text-xl font-bold py-4 border-slate-950">PLAYER 1</h1>
               </div>
               <h1 className="text-center text-4xl font-bold mt-6">501</h1>
               <p className="text-center text-sm">Won 0</p>
               <p className="text-center text-sm">Avg 0 | Best 0</p>
             </div>
             <div className="w-full">
-              <div className="w-full bg-slate-200">
+              <div className="w-full">
                 <h1 className="text-center text-xl font-bold py-4">PLAYER 2</h1>
               </div>
               <h1 className="text-center text-4xl font-bold mt-6">501</h1>
@@ -30,12 +30,12 @@ export default function Home() {
               <h1 className="text-center font-bold my-2">SCORE</h1>
             </div>
           </div>
-          <div className="text-center p-2">
-            <p className="text-sm">Leg 1</p>
-            <p className="font-bold text-4xl">0</p>
+          <div className="w-full md:w-[56vh] absolute bottom-0">
+            <div className="text-center p-2">
+              <p className="text-sm">Leg 1</p>
+              <p className="font-bold text-4xl">0</p>
             </div>
-          <div className="absolute bottom-8 w-full">
-            <div className="w-full h-96 grid grid-rows-4 grid-cols-3 gap-2 p-2">
+            <div className="w-full h-72 grid grid-rows-4 grid-cols-3 gap-2 p-2">
               <Button color="primary" className="h-full text-4xl">
                 1
               </Button>
@@ -66,14 +66,14 @@ export default function Home() {
                 9
               </Button>
 
-              <Button color="secondary" className="h-full text-4xl">
-                Undo
+              <Button className="h-full text-3xl font-bold bg-red-500">
+                UNDO
               </Button>
               <Button color="primary" className="h-full text-4xl">
                 0
               </Button>
-              <Button color="secondary" className="h-full text-4xl">
-                Add
+              <Button className="h-full text-3xl bg-red-500 font-bold">
+                BUST
               </Button>
             </div>
           </div>
