@@ -2,8 +2,7 @@ import {Button, ButtonGroup} from "@nextui-org/react";
 
 export default function Home() {
     return (
-      <main
-        className="flex min-h-screen flex-col items-center justify-between">
+      <main className="flex min-h-screen flex-col items-center justify-between">
         <div className="w-full h-screen">
           <div className="grid grid-cols-2 mb-6">
             <div className="w-full">
@@ -23,7 +22,7 @@ export default function Home() {
               <p className="text-center text-sm">Avg 0 | Best 0</p>
             </div>
           </div>
-          <div className="grid grid-cols-2 h-[23vh]">
+          <div className="grid grid-cols-2 h-64">
             <div className="w-full">
               <h1 className="text-center font-bold my-2">SCORE</h1>
             </div>
@@ -31,50 +30,52 @@ export default function Home() {
               <h1 className="text-center font-bold my-2">SCORE</h1>
             </div>
           </div>
-          <div className="text-center p-2">
-            <p className="text-sm">Leg 1</p>
-            <p className="font-bold text-4xl">0</p>
-          </div>
-          <div className="w-full h-96 grid grid-rows-4 grid-cols-3 gap-2 p-2">
-            <Button color="primary" className="h-full text-4xl">
-              1
-            </Button>
-            <Button color="primary" className="h-full text-4xl">
-              2
-            </Button>
-            <Button color="primary" className="h-full text-4xl">
-              3
-            </Button>
+          <div>
+            <div className="text-center p-2">
+              <p className="text-sm">Leg 1</p>
+              <p className="font-bold text-4xl">0</p>
+            </div>
+            <div className="w-full h-96 grid grid-rows-4 grid-cols-3 gap-2 p-2">
+              <Button color="primary" className="h-full text-4xl">
+                1
+              </Button>
+              <Button color="primary" className="h-full text-4xl">
+                2
+              </Button>
+              <Button color="primary" className="h-full text-4xl">
+                3
+              </Button>
 
-            <Button color="primary" className="h-full text-4xl">
-              4
-            </Button>
-            <Button color="primary" className="h-full text-4xl">
-              5
-            </Button>
-            <Button color="primary" className="h-full text-4xl">
-              6
-            </Button>
+              <Button color="primary" className="h-full text-4xl">
+                4
+              </Button>
+              <Button color="primary" className="h-full text-4xl">
+                5
+              </Button>
+              <Button color="primary" className="h-full text-4xl">
+                6
+              </Button>
 
-            <Button color="primary" className="h-full text-4xl">
-              7
-            </Button>
-            <Button color="primary" className="h-full text-4xl">
-              8
-            </Button>
-            <Button color="primary" className="h-full text-4xl">
-              9
-            </Button>
+              <Button color="primary" className="h-full text-4xl">
+                7
+              </Button>
+              <Button color="primary" className="h-full text-4xl">
+                8
+              </Button>
+              <Button color="primary" className="h-full text-4xl">
+                9
+              </Button>
 
-            <Button color="secondary" className="h-full text-4xl">
-              Undo
-            </Button>
-            <Button color="primary" className="h-full text-4xl">
-              0
-            </Button>
-            <Button color="secondary" className="h-full text-4xl">
-              Add
-            </Button>
+              <Button color="secondary" className="h-full text-4xl">
+                Undo
+              </Button>
+              <Button color="primary" className="h-full text-4xl">
+                0
+              </Button>
+              <Button color="secondary" className="h-full text-4xl">
+                Add
+              </Button>
+            </div>
           </div>
         </div>
       </main>
